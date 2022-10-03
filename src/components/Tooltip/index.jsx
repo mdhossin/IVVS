@@ -6,7 +6,7 @@ export default function Tooltip({ children, text, ...rest }) {
   return (
     <div>
       <div
-        className="tooltip h-[83px] w-[83px]"
+        className="invisible relative top-[-30px] right-[-10px] z-10 h-[35px]  rounded bg-[#ffffff] px-[15px] py-[5px] text-[#000]"
         style={show ? { visibility: "visible" } : {}}
       >
         {text}

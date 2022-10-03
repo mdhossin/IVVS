@@ -32,7 +32,7 @@ function Pricing() {
             <div className="mb-3 xl:w-96">
               <form>
                 <label
-                  for="default-search"
+                  htmlFor="default-search"
                   className="sr-only mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                 >
                   Search
@@ -303,8 +303,6 @@ function Pricing() {
           </div>
         </div>
       </div>
-
-      {/* modal components */}
 
       <div className="m-auto mt-16 mb-16 w-[800px]">
         <div className="relative">
