@@ -3,6 +3,7 @@ import { IoFilterSharp } from "react-icons/io5";
 import { Menu, Transition, Listbox } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
+import Tooltip from "../components/Tooltip";
 function Pricing() {
   const people = [
     { name: "Wade Cooper" },
@@ -304,6 +305,55 @@ function Pricing() {
       </div>
 
       {/* modal components */}
+
+      <div className="m-auto mt-16 mb-16 w-[800px]">
+        <div className="relative">
+          <img className="w-full" src="/img/business.png" alt="" />
+
+          <div className="div-1 absolute top-[66px] right-[371px] cursor-pointer">
+            <Tooltip text="Tool name 1">
+              <div className="absolute left-[35px] top-[-1px] flex h-[83px] w-[83px] items-center justify-center rounded-full bg-[#B4C7E7] font-bold text-white">
+                <h1 className="text-2xl">1</h1>
+              </div>
+            </Tooltip>
+          </div>
+          <div className="div-2 absolute top-[25%] left-[515px] cursor-pointer">
+            <Tooltip text="Tool name 2">
+              <div className="absolute top-0 flex h-[83px] w-[83px] items-center justify-center rounded-full bg-[#00B0F0] font-bold text-white">
+                <h1 className="text-2xl">2</h1>
+              </div>
+            </Tooltip>
+          </div>
+          <div className="div-3 absolute top-[61.5%] left-[535px] cursor-pointer">
+            <Tooltip text="Tool name 3">
+              <div className="absolute top-0 flex h-[83px] w-[83px] items-center justify-center rounded-full bg-[#00B0F0] font-bold text-white">
+                <h1 className="text-2xl">3</h1>
+              </div>
+            </Tooltip>
+          </div>
+          <div className="div-4 absolute top-[77.5%] left-[355px] cursor-pointer">
+            <Tooltip text="Tool name 4">
+              <div className="absolute top-0 flex h-[83px] w-[83px] items-center justify-center rounded-full bg-[#B4C7E7] font-bold text-white">
+                <h1 className="text-2xl">4</h1>
+              </div>
+            </Tooltip>
+          </div>
+          <div className="div-5 absolute top-[61.5%] left-[178px] cursor-pointer">
+            <Tooltip text="Tool name 5">
+              <div className="absolute top-0 flex h-[83px] w-[83px] items-center justify-center rounded-full bg-[#B4C7E7] font-bold text-white">
+                <h1 className="text-2xl">5</h1>
+              </div>
+            </Tooltip>
+          </div>
+          <div className="div-6 absolute top-[25%] left-[178px] cursor-pointer">
+            <Tooltip text="Tool name 6">
+              <div className="absolute top-0 flex h-[83px] w-[83px] items-center justify-center rounded-full bg-[#B4C7E7] font-bold text-white">
+                <h1 className="text-2xl">6</h1>
+              </div>
+            </Tooltip>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
