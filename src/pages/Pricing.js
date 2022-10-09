@@ -17,7 +17,7 @@ function Pricing() {
 
   return (
     <>
-      <div className="max-w-screen mx-auto px-6 sm:px-8">
+      <div className="max-w-screen mx-auto px-6  sm:px-8">
         <div
           style={{
             backgroundImage: `url("hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIjCfsuj1lhCUwlDaVckyl-KZ32W2e9PrcSQ&usqp=CAU)`,
@@ -103,7 +103,7 @@ function Pricing() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="bg-red absolute top-12 right-0 mt-2 w-[330px] origin-top-right divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none md:w-[550px] ">
+                    <Menu.Items className="bg-red absolute top-12 right-0 z-20 mt-2 w-[330px] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:bg-[#131B2D] md:w-[550px]">
                       <div className="p-5">
                         <p className="mb-1 text-sm md:text-base">
                           Is compatible with:
