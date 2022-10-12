@@ -18,8 +18,14 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "noImplicitAny": false,
+    "noImplicitAny": false
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Tools.js"],
-  "exclude": ["node_modules"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/Tools.js",
+    "src/components/Tools.tsx"
+  ],
+  "exclude": ["node_modules"]
 }
